@@ -606,7 +606,7 @@ header {
 #section2 {
   position: relative;
   text-align: center;
-  height: 100vh;
+  height: auto;
   background-image: url("../assets/about1.png");
   background-size: auto;
   padding: 15px;
