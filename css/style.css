@@ -544,7 +544,7 @@ header {
   font-weight: 600;
   line-height: 2;
   margin-left: 30vw;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   color: red;
 }
 
@@ -613,6 +613,7 @@ header {
   border-radius: 20px;
   box-shadow: 0 5px 6px 0;
   margin-left: 10vw;
+  /* margin-top: 100px; */
 }
 
 .package-image {
