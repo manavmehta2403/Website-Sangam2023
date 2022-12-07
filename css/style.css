@@ -524,6 +524,12 @@ header {
   left:0
 }
 
+.vid2{
+  width:90%;
+  height:100%;
+  left:0
+}
+
 #section2 {
   position: relative;
   text-align: center;
@@ -1106,7 +1112,7 @@ table body{
 }
 
 .progress-container {
-  height: 9150px;
+  height: 8250px;
   width: 3px;
   border: 4px solid red;
   z-index: -1;
@@ -1167,7 +1173,7 @@ table body{
   color: #ff0000 ;
 }
 
-.benefits h2 {
+.benefits table {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 600;
@@ -1230,7 +1236,7 @@ table body{
 /* DivTable.com */
 .divTable{
 	display: table;
-	/* width: 100%; */
+	width: 65%;
 }
 .divTableRow {
 	display: table-row;
@@ -1253,13 +1259,30 @@ table body{
 	background-color: #EEE;
 	display: table-footer-group;
 	font-weight: bold;
+  text-align: center;
 }
 .divTableBody {
 	display: table-row-group;
 }
 
+div.colspan,
+div.colspan+div.cell {
+  border: 0;
+}
 
+div.colspan>div {
+  width: 1px;
+}
 
+div.colspan>div>div {
+  position: relative;
+  width: 99px;
+  overflow: hidden;
+}
+
+.table-agenda{
+  display: none;
+}
 
 
 
@@ -1458,6 +1481,12 @@ table body{
 
   #section2 h2 {
     font-size: 25px;
+  }
+
+  .vid2{
+    width:100%;
+    height:100%;
+    left:0
   }
 
   .about-us {
@@ -1770,4 +1799,11 @@ table body{
     margin: 27% 0px 12% 0px;
   }
 
+  .divtable-agenda{
+    display: none;
+  }
+
+  .table-agenda{
+    display: block;
+  }
 }
