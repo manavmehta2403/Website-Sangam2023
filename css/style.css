@@ -1112,7 +1112,7 @@ table body{
 }
 
 .progress-container {
-  height: 375vh;
+  height: 400vh;
   width: 3px;
   border: 4px solid red;
   z-index: -1;
@@ -1300,19 +1300,21 @@ table {
   max-width: 50rem;
 }
 table tr:nth-child(even) th {
-  color: white;
-  font-weight: normal;
-  background-color: gray;
+  color: black;
+  font-weight: 500;
+  background-color: lightgray;
+  font-size: larger;
 }
 table th,
 table td {
   padding: 0.5rem 1rem;
 }
 table th {
-  font-weight: normal;
+  font-weight: 500;
   border-top: thin dotted grey;
   background-color: white;
-  color: gray;
+  color: black;
+  font-size: larger;
 }
 table td {
   font-size: 0.8rem;
@@ -1330,27 +1332,27 @@ table td > span {
 }
 
 .stage-earth {
-  background-color: #FFA726;
+  background-color: #e1ca96;
 }
 
 .stage-mercury {
-  background-color: #9CCC65;
+  background-color: #aca885;
 }
 
 .stage-venus {
-  background-color: #FF8A65;
+  background-color: #918b76;
 }
 
 .stage-mars {
-  background-color: #B3E5FC;
+  background-color: #626c66;
 }
 
 .stage-jupiter {
-  background-color: #81D4FA;
+  background-color: #434a42;
 }
 
 .stage-saturn {
-  background-color: #26C6DA;
+  background-color: #ffae3a;
 }
 
 
