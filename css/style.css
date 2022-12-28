@@ -387,7 +387,7 @@ body {
   background-image: url("../assets/ThemeBackGround.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 102vh;
+  height: 105vh;
 }
 
 #particles-js {
@@ -702,8 +702,20 @@ hr.style3 {
   width: 100%;
 }
 
-#second-row-speaker-align {
-  margin-left: 12.49%;
+#second-row-speaker1-align {
+  text-align: -webkit-right; 
+  padding-right: 175px; 
+  text-align: -moz-right;
+}
+
+#second-row-speaker2-align {
+  text-align: -webkit-left; 
+  padding-left: 175px; 
+  text-align: -moz-left;
+}
+
+#batchBttn{
+  margin-top: -100px;
 }
 
 .firstlinespeakers {
@@ -971,6 +983,7 @@ footer a:hover {
 
 .buyticketsbottom {
   text-align: -webkit-center;
+  text-align: -moz-center;
   padding-top: 5%;
   width: 100%;
   padding-right: 75px;
@@ -1121,7 +1134,7 @@ table body{
 }
 
 .progress-container {
-  height: 400vh;
+  height: 325vh;
   width: 3px;
   border: 4px solid red;
   z-index: -1;
@@ -1204,11 +1217,13 @@ table body{
   font-weight: 600;
   margin-left: 34vw;
   display: -webkit-box;
+  display: -moz-box;
   padding-right: 10vw;
 }
 
 .package-card {
-  margin-bottom: 50px;
+  -webkit-margin-before: 70px;
+  margin-bottom: 15px;
 }
 
 
@@ -1291,18 +1306,21 @@ div.colspan>div>div {
   display: none;
 }
 
+.google-maps {
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 25%; 
+  height: 0;
+  overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
 
 table {
   width: 100%;
@@ -1511,8 +1529,16 @@ table td > span {
     width: 238px;
   }
 
-  #second-row-speaker-align {
-    margin-left: 0px;
+  #second-row-speaker1-align {
+    text-align: -webkit-center; 
+    padding-right: 0px; 
+    text-align: -moz-center;
+  }
+
+  #second-row-speaker2-align {
+    text-align: -webkit-center; 
+    padding-left: 0px; 
+    text-align: -moz-center;
   }
 
   .about-tedx .about-ted .about-tedxmitsg {
