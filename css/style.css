@@ -1395,14 +1395,15 @@ table td > span {
 
 
 
-
+#venue{
+  background-color: black;
+}
 
 #venueTitle { 
   -webkit-filter: invert(100%);
   filter: invert(100%);
-  background-color: black;
   padding: 15px;
-  color: white;
+  color: black;
 }
 
 
